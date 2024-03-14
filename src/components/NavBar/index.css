@@ -1,0 +1,58 @@
+/* Write your code here. */
+.navClass {
+  background-color: rgb(185, 185, 250);
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid #ffffff30;
+  height: 20vh;
+}
+.logo-name-container {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.logo-img {
+  padding-top: 10px;
+  height: 30px;
+  width: 30px;
+}
+.emoji-header {
+  font-size: 10px;
+
+  padding-top: 8px;
+}
+.Score-topScore-Container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.score-styling {
+  font-size: 12px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+@media (min-width: 768px) {
+  .navClass {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .logo-name-container {
+    flex-grow: 1;
+  }
+  .logo-img {
+    height: 150px;
+    width: 150px;
+  }
+  .emoji-header {
+    font-size: 40px;
+  }
+  .score-styling {
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+}
